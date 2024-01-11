@@ -12,6 +12,7 @@ int main ()
 	char again;
 	int chosse;
 	bool benar, salah;
+	string emailadd;
 
 	
 	cout << "welcome!!" << endl; 
@@ -72,6 +73,14 @@ int main ()
 		
 		break; 
 	case 3: 
+		cout << "halo" << username << " ingin kirim alamat email ke mana? " << endl; 
+		
+		 cout << "masukkan alamat email : " ; 
+		 cin >> emailadd;
+		 
+		 cout << "sending email " << endl; 
+		 Sleep(5000);
+		 cout << "email sending to " << emailadd << endl;
 		break; 
 	case 0: 
 	
